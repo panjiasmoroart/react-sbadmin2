@@ -68,3 +68,5 @@ cd react-sbadmin2
 npm install
 
 npm run dev
+
+![Dashboard Screenshot](public/img/Reactjs-SB-Admin-2.jpg)
