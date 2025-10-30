@@ -55,6 +55,8 @@ react-sbadmin2/
 │   ├── stores/
 │   └── utils/
 
+```
+
 ## Requirements
 
 - **Node.js** v22 or higher (tested with v22.19.0)
