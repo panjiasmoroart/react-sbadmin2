@@ -69,4 +69,5 @@ npm install
 
 npm run dev
 
-![Dashboard Screenshot](public/img/Reactjs-SB-Admin-2.jpg)
+![Dashboard Screenshot](./public/img/Reactjs-SB-Admin-2.jpg)
+
