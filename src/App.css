@@ -1,0 +1,240 @@
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/fonts/Nunito/Nunito-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/fonts/Nunito/Nunito-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/fonts/Nunito/Nunito-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/fonts/Nunito/Nunito-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+
+/* custom dashboard */
+.a1
+{
+    width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100";
+}
+.a2
+{
+    width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100";
+}
+.a3
+{
+    width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100";
+}
+.a4
+{
+    width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100";
+}
+.a5
+{
+    width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100";
+}
+.a6
+{
+    width: 25rem;
+}
+.a7
+{
+    width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100";
+}
+
+/* .toggled {
+    overflow: visible;
+    width: 6.5rem !important;
+} */
+
+/* .toggled1 {
+    width: 0 !important;
+    overflow: hidden;
+} */
+
+
+/* Jika menu sedang terbuka, ubah jadi panah ke bawah */
+/* .sidebar .nav-item .nav-link[aria-expanded="true"]::after {
+  content: '\f107';
+} */
+
+
+.sidebar .nav-item .nav-link.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.sidebar .nav-item .collapse {
+  display: block !important;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sidebar .nav-item .collapse.show {
+  max-height: 500px; 
+}
+
+.sidebar .nav-item .collapsing {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* menu logo */
+sub, sup {
+    font-size: 50% !important;
+}
+
+
+/* Default arrow mengarah ke kanan */
+/* panah ke kanan */
+
+.user-dropdown-btn {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.user-dropdown-btn:focus,
+.user-dropdown-btn:active {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* login auth */
+.bg-login-image {
+  background: url("/img/bg-auth.jpg") !important;
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.bg-register-image {
+  background: url("/img/bg-auth.jpg") !important;
+  background-position: center !important;
+  background-size: cover !important;
+    /* background:  #4e73df; */
+}
+
+.bg-password-image {
+    background: url("/img/bg-auth.jpg") !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background:  #4e73df;
+}
+
+
+.sidebar-arrow {
+  transition: transform 0.3s ease;
+  font-weight: 1000; 
+  display: inline-block;
+}
+
+.sidebar-arrow.rotate {
+  transform: rotate(90deg);
+}
+
+/* ide arrow icon  */
+@media (max-width: 767.98px) {
+  .sidebar-arrow {
+    display: none;
+  }
+}
+
+.collapse-item {
+  text-align: left;
+}
+
+/* responsive submenu di tengah */
+@media (max-width: 767.98px) {
+  .collapse-item {
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .collapse-inner {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+
+/* Sidebar Custom Fixes */
+.sidebar.toggled .nav-item .nav-link {
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.sidebar.toggled .nav-item .nav-link span {
+  display: block !important;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.sidebar.toggled .sidebar-arrow {
+  display: none !important;
+}
+
+.sidebar.toggled .nav-item .nav-link i {
+  font-size: 1.25rem;
+   margin-bottom: 0.25rem;
+}
+
+
+/* collapse (Components, Utilities, Pages, etc) */
+.sidebar.toggled .nav-item .btn.nav-link {
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.sidebar.toggled .nav-item .btn.nav-link > div {
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.sidebar.toggled .nav-item .btn.nav-link span {
+  display: block !important;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  margin-left: 0 !important; 
+}
+
+.sidebar.toggled .nav-item .btn.nav-link .sidebar-arrow {
+  display: none !important
+}
+
+
+
