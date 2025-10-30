@@ -33,24 +33,24 @@ npm install --save chart.js react-chartjs-2
 
 ## Project Structure
 
+```text
 react-sbadmin2/
-  src/
-    assets/
-    components/
-      Cards/
-      Charts/
-      Modal/
-      PageTitle/
-    data/
-    hooks/
-    layouts/
-    pages/
-      Dashboard/
-      Animations/
-    services/
-    stores/
-    utils/
-
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Cards/
+│   │   ├── Charts/
+│   │   ├── Modal/
+│   │   └── PageTitle/
+│   ├── data/
+│   ├── hooks/
+│   ├── layouts/
+│   ├── pages/
+│   │   ├── Dashboard/
+│   │   └── Animations/
+│   ├── services/
+│   ├── stores/
+│   └── utils/
 
 ## Requirements
 
