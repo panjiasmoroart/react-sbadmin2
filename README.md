@@ -1,5 +1,8 @@
 # SB Admin 2 (Reactjs Version)
 
+
+![Dashboard Screenshot](./public/img/Reactjs-SB-Admin-2.jpg)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -71,5 +74,4 @@ npm run dev
 
 ```
 
-![Dashboard Screenshot](./public/img/Reactjs-SB-Admin-2.jpg)
 
